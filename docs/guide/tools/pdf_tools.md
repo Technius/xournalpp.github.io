@@ -43,3 +43,16 @@ shown.
   underlines the selected text; 3) strikes through the selected text.
 * The button at the bottom left will toggle between linear selection and
   region selection.
+
+## Navigating PDF Links
+
+Clicking on a link with a PDF text selection tool will cause a popup to open.
+The contents of the popup depend on the type of link that is clicked:
+
+* **URL links** are those that contain that can be opened in a web browser, file
+  explorer, email client, etc. The popup will show the URL (clickable) as well
+  as a button to copy the URL to your system clipboard.
+* **Relative links** are those that link to other pages in the PDF. The popup
+  will show a button that allows you to navigate to the corresponding page in
+  the current journal; if it does not exist, then the button will instead allow
+  you to append the PDF page to the end of the journal.
